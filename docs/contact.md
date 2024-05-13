@@ -5,17 +5,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 20px; // 减少水平内边距，适应小屏幕
+        padding: 0 20px; /* 减少水平内边距，适应小屏幕 */
     }
 
     .item {
-        margin-bottom: 20px; // 增加垂直间距
-        text-align: center; // 文字居中
+        margin-bottom: 20px; /* 增加垂直间距 */
+        text-align: center; /* 文字居中 */
     }
 
     .item img {
         width: 80%;
-        max-width: 300px; // 设置图像最大宽度
+        max-width: 300px; /* 设置图像最大宽度 */
     }
 
     .item p {
@@ -30,7 +30,7 @@
         }
 
         .item {
-            margin-bottom: 0; // 在大屏幕上取消垂直间距
+            margin-bottom: 0; /* 在大屏幕上取消垂直间距 */
         }
     }
 </style>
